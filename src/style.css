@@ -1,0 +1,202 @@
+.body {
+  background-color: green;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: light;
+}
+.link {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.link:hover {
+  background-color: white;
+  opacity: 0.5;
+  color: black;
+}
+.active {
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formBox {
+  box-shadow: 0px -3px 52px 5px rgba(0, 0, 0, 0.52);
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 90px;
+  width: 40%;
+}
+.formBox h1 {
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+input {
+  width: 95%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: none;
+  border: 1px solid grey;
+}
+label {
+  font-size: 18px;
+  font-weight: lighter;
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+button {
+  margin-top: 20px;
+  background-color: rgb(6, 179, 6);
+  border: none;
+  padding: 9px 18px 9px 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: rgb(3, 151, 3);
+  cursor: pointer;
+}
+.footer {
+  margin-left: 30px;
+  text-transform: capitalize;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.err {
+  color: red;
+}
+.products {
+  width: 100%;
+  text-align: center;
+}
+.products p {
+  font-size: 25px;
+  border: 3px dotted black;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.links {
+  margin: 20px;
+  font-weight: lighter;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+}
+a.active {
+  font-weight: bolder;
+  color: green;
+}
+img {
+  width: 200px;
+  height: 300px;
+}
+.card {
+  width: 300px;
+  margin-bottom: 30px;
+  height: 400px;
+  box-shadow: -5px 2px 35px 0px rgba(0, 0, 0, 0.24);
+  padding: 40px 40px 80px 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: -5px 2px 35px 0px rgba(0, 0, 0, 0.63);
+  cursor: pointer;
+  transform: translateY(10px);
+}
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardBody {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 1000px;
+  margin-top: 20px;
+  padding: 30px;
+  overflow-y: scroll;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.landingImg {
+  background: url(./parker-burchfield-tvG4WvjgsEY-unsplash.jpg);
+  width: 100%;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+.landingImg2 {
+  background: url(./dominik-lange-Lej_oqHljbk-unsplash.jpg);
+  width: 100%;
+  color: white;
+  text-shadow: 4px 4px 11px rgba(0, 0, 0, 1);
+  font-weight: lighter;
+  text-transform: uppercase;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0 90px 0;
+}
+.landingImg .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0 150px 0;
+}
+.landingImg .content .text {
+  color: whitesmoke;
+  text-shadow: 4px 4px 11px rgba(0, 0, 0, 1);
+  border-radius: 30px;
+  rotate: -20deg;
+  font-size: 50px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  width: 500px;
+  text-align: center;
+  padding: 30px;
+}
+.info {
+  color: white;
+  text-shadow: 4px 4px 11px rgba(0, 0, 0, 1);
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.mails {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.det {
+  margin-left: 10px;
+}
